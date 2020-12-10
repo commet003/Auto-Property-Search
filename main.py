@@ -46,7 +46,6 @@ driver.get(FORM_URL)
 
 
 for n in range(len(link_list)):
-    # Substitute your own Google Form URL here 👇
     driver.get(FORM_URL)
 
     time.sleep(2)
